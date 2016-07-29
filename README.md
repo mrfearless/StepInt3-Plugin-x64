@@ -1,6 +1,6 @@
 # StepInt3 Plugin (x64) - A Plugin For x64dbg
 
-![](https://github.com/mrfearless/StepInt3-Plugin-x64/blob/master/images/StepInt3.png) [Current version: 1.0.0.0 - Last updated: 28/07/2016](https://github.com/mrfearless/StepInt3-x64/releases/latest) For the x86 version of this plugin, visit [here](https://github.com/mrfearless/StepInt3-Plugin-x86)
+![](https://github.com/mrfearless/StepInt3-Plugin-x64/blob/master/images/StepInt3.png) [Current version: 1.0.0.0 - Last updated: 28/07/2016](https://github.com/mrfearless/StepInt3-Plugin-x64/releases/latest) For the x86 version of this plugin, visit [here](https://github.com/mrfearless/StepInt3-Plugin-x86)
 
 ## Overview
 
