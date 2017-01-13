@@ -214,9 +214,10 @@ plugsetup endp
 ;-------------------------------------------------------------------------------------
 CBMENUENTRY PROC FRAME USES RBX cbType:QWORD, cbInfo:QWORD
     mov rbx, cbInfo
-    mov rax, [rbx].PLUG_CB_MENUENTRY.hEntry
+    xor rax, rax
+    mov eax, [rbx].PLUG_CB_MENUENTRY.hEntry
     
-    .IF rax == MENU_STEPINT3
+    .IF eax == MENU_STEPINT3
         Invoke IniGetStepInt3Enabled
         .IF rax == 1
             mov g_StepInt3Enabled, 0
